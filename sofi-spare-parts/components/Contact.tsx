@@ -20,7 +20,7 @@ const CONTACT_METHODS = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: BUSINESS.whatsapp,
+    value: "faizaemi24",
     desc: "Chat on WhatsApp",
     href: WHATSAPP_HREF,
     color: "text-green-500",
@@ -32,7 +32,7 @@ const CONTACT_METHODS = [
   {
     icon: Send,
     label: "Telegram",
-    value: "Message on Telegram",
+    value: "@sbajaj54",
     desc: "Reach us on Telegram",
     href: TELEGRAM_HREF,
     color: "text-sky-500",

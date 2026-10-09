@@ -95,7 +95,7 @@ export default function SocialMedia() {
             </div>
             <div className="text-left">
               <p className="text-base font-bold leading-none">TikTok</p>
-              <p className="text-xs opacity-70 mt-0.5">@sofi_spare</p>
+              <p className="text-xs opacity-70 mt-0.5">@firaabdi1</p>
             </div>
           </a>
 
