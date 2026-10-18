@@ -14,7 +14,7 @@ export const BUSINESS = {
 
   // ── Contact ──────────────────────────────────────────────
   phone:     "+251954424424",
-  whatsapp:  "faizaemi24",           // WhatsApp username
+  whatsapp:  "+251954424424",
   telegram:  "https://t.me/sbajaj54",
 
   // ── Social Media ─────────────────────────────────────────
@@ -36,5 +36,5 @@ export const BUSINESS = {
 
 // Derived helpers
 export const PHONE_HREF     = `tel:${BUSINESS.phone}`;
-export const WHATSAPP_HREF  = `https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent(BUSINESS.whatsappMessage)}`;
+export const WHATSAPP_HREF  = `https://wa.me/${BUSINESS.whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent(BUSINESS.whatsappMessage)}`;
 export const TELEGRAM_HREF  = BUSINESS.telegram;

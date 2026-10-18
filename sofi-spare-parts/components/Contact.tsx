@@ -20,7 +20,7 @@ const CONTACT_METHODS = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "@faizaemi24",
+    value: "+251954424424",
     desc: "Chat on WhatsApp",
     href: WHATSAPP_HREF,
     color: "text-green-500",
